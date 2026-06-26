@@ -107,11 +107,11 @@ http://127.0.0.1:5000
 
 ### Home Page
 
-> Add a screenshot here.
+![Home Page](images/Home_page.png.png)
 
 ### Results Page
 
-> Add a screenshot here.
+![Result Page](images/Result_page.png.png)
 
 ---
 
