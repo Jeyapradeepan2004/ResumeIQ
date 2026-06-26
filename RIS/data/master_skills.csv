@@ -1,0 +1,112 @@
+skill_name,category
+Python,Programming Language
+Java,Programming Language
+C,Programming Language
+C++,Programming Language
+C#,Programming Language
+JavaScript,Programming Language
+TypeScript,Programming Language
+Go,Programming Language
+Rust,Programming Language
+PHP,Programming Language
+Ruby,Programming Language
+Kotlin,Programming Language
+Swift,Programming Language
+R,Programming Language
+MATLAB,Programming Language
+HTML,Frontend
+CSS,Frontend
+React,Frontend
+Angular,Frontend
+Vue.js,Frontend
+Bootstrap,Frontend
+Tailwind CSS,Frontend
+jQuery,Frontend
+Redux,Frontend
+Next.js,Frontend
+Flask,Backend Framework
+FastAPI,Backend Framework
+Django,Backend Framework
+Express.js,Backend Framework
+Spring Boot,Backend Framework
+.NET,Backend Framework
+Laravel,Backend Framework
+Node.js,Backend
+REST API,Backend
+GraphQL,Backend
+SQL,Database
+MySQL,Database
+PostgreSQL,Database
+SQLite,Database
+MongoDB,Database
+Oracle,Database
+Redis,Database
+MariaDB,Database
+Firebase,Database
+Cassandra,Database
+NumPy,Data Science
+Pandas,Data Science
+Matplotlib,Data Science
+Seaborn,Data Science
+Scikit-learn,Data Science
+TensorFlow,Data Science
+PyTorch,Data Science
+OpenCV,Data Science
+Keras,Data Science
+XGBoost,Data Science
+AWS,Cloud
+Azure,Cloud
+Google Cloud,Cloud
+EC2,Cloud
+S3,Cloud
+Lambda,Cloud
+CloudFormation,Cloud
+CloudWatch,Cloud
+Docker,DevOps
+Kubernetes,DevOps
+Jenkins,DevOps
+GitHub Actions,DevOps
+Terraform,DevOps
+Ansible,DevOps
+Linux,Operating System
+Bash,Scripting
+Git,Version Control
+GitHub,Version Control
+GitLab,Version Control
+Bitbucket,Version Control
+PyTest,Testing
+JUnit,Testing
+Selenium,Testing
+Postman,Testing
+Cypress,Testing
+JMeter,Testing
+Machine Learning,AI
+Deep Learning,AI
+Natural Language Processing,AI
+Generative AI,AI
+LLM,AI
+Prompt Engineering,AI
+LangChain,AI
+OpenAI API,AI
+Apache Spark,Data Engineering
+Apache Kafka,Data Engineering
+Airflow,Data Engineering
+Hadoop,Data Engineering
+Hive,Data Engineering
+ETL,Data Engineering
+Visual Studio Code,Tool
+PyCharm,Tool
+Jupyter Notebook,Tool
+Figma,Tool
+Power BI,Tool
+Excel,Tool
+Object-Oriented Programming,Concept
+Data Structures,Concept
+Algorithms,Concept
+Operating Systems,Concept
+Computer Networks,Concept
+DBMS,Concept
+System Design,Concept
+Microservices,Concept
+Agile,Concept
+Scrum,Concept

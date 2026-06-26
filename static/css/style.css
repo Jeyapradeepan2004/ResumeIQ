@@ -1,0 +1,240 @@
+/* ==========================
+   Google Font
+========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ==========================
+   Reset
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* ==========================
+   Body
+========================== */
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f4f7fb;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    min-height:100vh;
+    padding:40px 20px;
+}
+
+/* ==========================
+   Main Container
+========================== */
+
+.container{
+
+    width:100%;
+    max-width:750px;
+
+    background:#ffffff;
+
+    padding:45px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    text-align:center;
+}
+
+/* ==========================
+   Heading
+========================== */
+
+h1{
+
+    font-size:42px;
+    font-weight:700;
+
+    color:#1f2937;
+
+    margin-bottom:18px;
+}
+
+/* ==========================
+   Description
+========================== */
+
+p{
+
+    color:#64748b;
+
+    font-size:17px;
+
+    line-height:1.6;
+
+    margin-bottom:25px;
+}
+
+/* ==========================
+   Upload Button
+========================== */
+
+input[type="file"]{
+    display:none;
+}
+
+.upload-btn{
+
+    display:inline-block;
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:14px 30px;
+
+    border-radius:10px;
+
+    font-size:16px;
+    font-weight:500;
+
+    cursor:pointer;
+
+    transition:.25s;
+}
+
+.upload-btn:hover{
+
+    background:#1d4ed8;
+
+    transform:translateY(-2px);
+}
+
+/* ==========================
+   File Name
+========================== */
+
+#file-name{
+
+    display:block;
+
+    margin-top:15px;
+    margin-bottom:35px;
+
+    color:#64748b;
+
+    font-size:15px;
+}
+
+/* ==========================
+   Helper Text
+========================== */
+
+.helper-text{
+
+    margin-bottom:15px;
+
+    color:#475569;
+
+    font-size:15px;
+}
+
+/* ==========================
+   Textarea
+========================== */
+
+textarea{
+
+    width:100%;
+
+    height:260px;
+
+    padding:18px;
+
+    border:1px solid #d1d5db;
+
+    border-radius:12px;
+
+    font-size:15px;
+
+    font-family:'Poppins',sans-serif;
+
+    resize:vertical;
+
+    outline:none;
+
+    transition:.25s;
+
+    margin-bottom:30px;
+}
+
+textarea:focus{
+
+    border-color:#2563eb;
+
+    box-shadow:0 0 0 4px rgba(37,99,235,.15);
+}
+
+/* ==========================
+   Analyze Button
+========================== */
+
+button{
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    padding:15px 35px;
+
+    border-radius:10px;
+
+    font-size:17px;
+    font-weight:500;
+
+    cursor:pointer;
+
+    transition:.25s;
+}
+
+button:hover{
+
+    background:#1d4ed8;
+
+    transform:translateY(-2px);
+}
+
+/* ==========================
+   Responsive
+========================== */
+
+@media(max-width:768px){
+
+    .container{
+
+        padding:30px;
+    }
+
+    h1{
+
+        font-size:34px;
+    }
+
+    textarea{
+
+        height:220px;
+    }
+
+    .upload-btn,
+    button{
+
+        width:100%;
+    }
+
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIS</title>
+    
+    
+    <link  rel="stylesheet" 
+           href ="{{ url_for('static', filename = 'css/style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+    <h1>
+        Resume Intelligence System
+    </h1>
+    <p>
+        Upload your resume and compare it against a job description to receive ATS analysis and improvement suggestions.
+    </p>
+
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+       
+        <input 
+            type="file"
+            id="resume"
+            name="resume"
+            hidden
+        >
+
+        <label for="resume" class="upload-btn">
+            Upload Resume
+        </label>
+
+        <span id="file-name">
+        </span>
+
+        <p class="jd-helper">
+            Copy and paste the job posting from LinkedIn, Indeed, Naukri, etc.
+        </p>
+
+
+        <textarea
+            id="job_description"
+            name="job_description"
+            rows="10"
+            cols="50"
+            placeholder="Paste the job description here...
+
+            Example:
+
+            Python Developer
+
+            Requirements:
+                • Python
+                • SQL
+                • Flask
+                • REST APIs
+                • Git
+                • Docker
+
+            Responsibilities:
+                • Build REST APIs
+                • Work with databases
+                • Collaborate with frontend developers"></textarea>
+
+        <button type="submit">
+            Analyze Resume
+        </button>
+
+
+    </form>
+    </div>
+
+    <script>
+        const fileInput = document.getElementById("resume");
+        const fileName = document.getElementById("file-name");
+
+
+        fileInput.addEventListener("change", function(){
+
+            if(this.files.length > 0){
+                fileName.textContent = this.files[0].name;
+            }
+        })
+
+
+    </script>
+
+
+</body>
+</html>

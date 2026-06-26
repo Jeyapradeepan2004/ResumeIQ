@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ResumeIQ Results</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/result.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="result-card">
+
+        <!-- ==========================
+             Heading
+        =========================== -->
+
+        <h1>ResumeIQ Result</h1>
+
+        <!-- ==========================
+             ATS Score
+        =========================== -->
+
+        <div class="score-section">
+
+            <div class="score-circle">
+
+                <div class="score">{{ score }}%</div>
+
+                <span>ATS Score</span>
+
+            </div>
+
+        </div>
+
+        <div class="summary">
+            <p>
+                Your resume matched
+                <strong>{{ matched|length }}</strong>
+                out of
+                <strong>{{ job_skills|length }}</strong>
+                required skills.
+            </p>
+        </div>
+
+        <!-- ==========================
+             Matched & Missing
+        =========================== -->
+
+        <div class="content">
+
+            <!-- Matched Skills -->
+
+            <div class="box">
+
+                <h2>Matched Skills</h2>
+
+                <div class="list-container">
+
+                    <ul class="matched">
+
+                        {% for skill in matched %}
+                        <li>✔ {{ skill }}</li>
+                        {% endfor %}
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <!-- Missing Skills -->
+
+            <div class="box">
+
+                <h2>Missing Skills</h2>
+
+                <div class="list-container">
+
+                    <ul class="missing">
+
+                        {% for skill in missed %}
+                        <li>✖ {{ skill }}</li>
+                        {% endfor %}
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- ==========================
+             Recommendations
+        =========================== -->
+
+        <div class="box recommendation">
+
+            <h2>Recommendations</h2>
+
+            <div class="list-container">
+
+                <ul>
+
+                    {% for skill in missed %}
+                    <li>Learn <strong>{{ skill }}</strong></li>
+                    {% endfor %}
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
