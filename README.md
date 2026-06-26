@@ -115,7 +115,7 @@ http://127.0.0.1:5000
 
 ---
 
-## Current Features
+## Key Features
 
 - Resume upload
 - Job description input
@@ -162,7 +162,7 @@ This project helped me learn:
 
 GitHub: https://github.com/Jeyapradeepan2004
 
-LinkedIn: *(Add your LinkedIn profile here)*
+LinkedIn: https://www.linkedin.com/in/jeya-pradeepan-j-2143b5251
 
 ---
 
