@@ -107,11 +107,11 @@ http://127.0.0.1:5000
 
 ### Home Page
 
-![Home Page](images/Home_page.png.png)
+![Home Page](images/home.png)
 
 ### Results Page
 
-![Result Page](images/Result_page.png.png)
+![Result Page](images/result.png)
 
 ---
 
