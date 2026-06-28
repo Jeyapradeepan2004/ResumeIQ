@@ -3,8 +3,6 @@ __pycache__/
 
 venv/
 
-ris.db
-
 uploads/
 
 .vscode/
